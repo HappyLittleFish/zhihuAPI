@@ -27,4 +27,4 @@ jobs:
     - name: Install npm dependencies
       run: npm install
     - name: Run app task
-      run: npm run start
+      run: NODE_ENV=production pm2 start app/index.js --name "zhihuServer"
