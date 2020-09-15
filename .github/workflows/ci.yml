@@ -34,4 +34,4 @@ jobs:
         script: |
           cd /var/www/zhihuServer
           npm install
-          pm2 start npm -- start
+          pm2 start --name=zhihu-server npm -- start
