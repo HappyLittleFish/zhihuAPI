@@ -78,6 +78,6 @@ routing(app)
 // cross-env：运行跨平台设置和使用环境变量的脚本，可以跨平台地设置及使用环境变量
 // cross-env：提供一个设置环境变量的scripts，以unix方式设置环境变量，在windows上也能够兼容。
 
-app.listen(3000, () => {
-  console.log('程序成功启动了，在3000端口！！！')
+app.listen(3002, () => {
+  console.log('程序成功启动了，在3002端口！！！')
 })
